@@ -1,0 +1,206 @@
+Hier is een duidelijke maar compacte **Game Design Document (GDD)** voor jouw game *Gravity Flip Runner*. Je kunt dit gebruiken als blueprint terwijl je bouwt in Unity.
+
+---
+
+# 🎮 Game Design Document – *Gravity Flip Runner*
+
+## 1. 📌 Overzicht
+
+**Titel:** *Gravity Flip Runner*
+**Genre:** Endless runner / arcade
+**Platform:** Mobile (Android / iOS)
+**Doelgroep:** Casual spelers (12+)
+**Speelstijl:** Snelle reflexen, korte speelsessies
+
+**Kernidee:**
+De speler rent automatisch vooruit en kan met één tap de zwaartekracht omdraaien om obstakels te ontwijken.
+
+---
+
+## 2. 🧠 Core Gameplay
+
+**Main mechanic:**
+
+* Tap = zwaartekracht omdraaien (vloer ↔ plafond)
+
+**Loop:**
+
+1. Speler start met rennen
+2. Obstakels verschijnen
+3. Speler ontwijkt door te flippen
+4. Game wordt steeds sneller
+5. Speler crasht → game over → opnieuw proberen
+
+---
+
+## 3. 🎯 Doelen van de speler
+
+* Zo ver mogelijk komen (high score)
+* Coins verzamelen (optioneel)
+* Nieuwe characters unlocken
+
+---
+
+## 4. 🎮 Controls
+
+| Actie        | Input         |
+| ------------ | ------------- |
+| Gravity flip | Tap op scherm |
+
+✔ Simpel en mobile-friendly
+✔ Eén hand speelbaar
+
+---
+
+## 5. 🧱 Game Systems
+
+### 🏃 Movement
+
+* Player beweegt automatisch naar rechts
+* Snelheid neemt toe over tijd
+
+### 🔁 Gravity System
+
+* Gravity scale verandert van + naar –
+* Player draait visueel om
+
+### 🚧 Obstacles
+
+* Spikes (vloer/plafond)
+* Bewegende blokken (later)
+* Smalle doorgangen
+
+### 💀 Death System
+
+* Botsing met obstacle = game over
+* Tijd stopt
+* Restart optie
+
+---
+
+## 6. 📈 Progressie
+
+**Tijdens run:**
+
+* Moeilijkheid stijgt:
+
+  * Snellere snelheid
+  * Meer obstakels
+  * Complexere patronen
+
+**Meta progressie (optioneel):**
+
+* Coins verzamelen
+* Skins unlocken
+* Power-ups kopen
+
+---
+
+## 7. 🪙 Economy (optioneel)
+
+* Coins spawnen tussen obstakels
+* Te gebruiken voor:
+
+  * Skins
+  * Power-ups
+
+---
+
+## 8. ⚡ Power-ups (later uitbreiden)
+
+* Shield (1 hit overleven)
+* Slow motion
+* Magnet (coins aantrekken)
+
+---
+
+## 9. 🎨 Visual Style
+
+* Minimalistisch (zoals *Geometry Dash*)
+* Sterke contrasten (zwart/wit + neon kleuren)
+* Smooth animaties
+
+---
+
+## 10. 🔊 Audio
+
+* Snelle arcade muziek
+* SFX:
+
+  * Flip geluid
+  * Crash geluid
+  * Coin pickup
+
+---
+
+## 11. 📱 UI / UX
+
+### Screens:
+
+* Main menu
+* Game screen
+* Game over screen
+
+### UI elementen:
+
+* Score (bovenin)
+* High score
+* Restart knop
+
+---
+
+## 12. 🧪 Technische Features (Unity)
+
+* Rigidbody2D physics
+* Object pooling (voor performance)
+* Touch input
+* Scene management
+
+---
+
+## 13. 🚀 MVP (Minimum Viable Product)
+
+Wat moet er minimaal in zitten:
+
+* Player + gravity flip
+* Obstacles
+* Collision + game over
+* Score systeem
+* Restart knop
+
+👉 Alles daarboven is extra
+
+---
+
+## 14. 🔮 Toekomstige uitbreidingen
+
+* Levels i.p.v. endless
+* Boss obstacles
+* Multiplayer ghost runs
+* Daily challenges
+
+---
+
+## 15. ⚠️ Risico’s
+
+* Gameplay kan repetitief worden → variatie nodig
+* Physics moet strak aanvoelen
+* Mobile performance optimalisatie
+
+---
+
+## 16. ✅ Succescriteria
+
+* Speelt soepel op mobiel
+* Makkelijk te leren, moeilijk te masteren
+* Speler wil “nog één keer proberen”
+
+---
+
+Als je wilt, kan ik dit voor je omzetten naar:
+
+* een **Unity takenlijst (to-do per dag)**
+* of een **Notion / Trello board structuur**
+* of zelfs een **UI mockup van je game**
+
+Wat wil je als volgende stap?
